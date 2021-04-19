@@ -14,12 +14,12 @@
                                                                                        
 
 ## Latest blog posts
+- 2021-04-18 [24 天像素画从入门到放弃](http://frankorz.com/2021/04/18/learn-pixel-art/)
+- 2021-04-17 [Compute Shader 简介](http://frankorz.com/2021/04/17/compute-shader/)
 - 2020-10-03 [博客新增公开笔记部分](http://frankorz.com/2020/10/03/add-note-section-to-blog)
 - 2020-07-26 [图形学常见的变换推导](http://frankorz.com/2020/07/26/transformation/)
 - 2020-05-23 [2020年5月技术导读](http://frankorz.com/2020/05/23/2020-05-tech-reading/)
 - 2020-04-13 [2020年4月技术导读](http://frankorz.com/2020/04/13/2020-04-tech-reading/)
-- 2020-01-31 [《图解 C# 教程 第5版》与性能优化](http://frankorz.com/2020/01/31/illustrated-csharp-and-performance/)
-- 2019-12-04 [2019 年的收获与成长](http://frankorz.com/2019/12/04/2019-year-end-summary/)
 
 [>>> More blog posts](http://frankorz.com/archives/)
 
