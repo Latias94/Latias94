@@ -20,9 +20,11 @@ Many of my repositories are learning logs or scratchpads. If you want to underst
 
 - [asset-importer](https://github.com/Latias94/asset-importer): safe, high-level Rust bindings for Assimp, focused on practical 3D asset import/export workflows.
 - [unity-asset](https://github.com/Latias94/unity-asset): a Rust implementation for parsing Unity YAML and binary asset formats, focused on extraction, inspection, and learning Unity's file formats from the inside.
+- [boxdd](https://github.com/Latias94/boxdd): safe, ergonomic Rust bindings for Box2D v3, with a focus on explicit FFI boundaries, practical hot-path APIs, and game/runtime use cases.
+- [spine2d](https://github.com/Latias94/spine2d): an experimental pure Rust runtime for Spine 4.3, aiming for renderer-agnostic native/wasm usage and oracle-driven parity with official runtime behavior.
 - [renderdog](https://github.com/Latias94/renderdog): Rust wrapper and automation helpers around RenderDoc, including workflows useful to AI-assisted graphics debugging.
+- [jsonrepair](https://github.com/Latias94/jsonrepair): a fast, low-dependency JSON repair library and CLI for malformed JSON commonly produced by LLMs and other sources.
 - [siumai](https://github.com/YumchaLabs/siumai): a type-safe Rust library providing one consistent API across multiple LLM providers.
-- [llm_dart](https://github.com/Latias94/llm_dart): Dart-side LLM interface work, useful when crossing tool/app boundaries.
 
 ## Working style
 
