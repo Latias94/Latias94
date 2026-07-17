@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+  <title id="title">dear-imgui-rs real outputs</title>
+  <desc id="desc">A Dear ImGui game-engine docking editor with smaller node-editor and ImPlot3D examples.</desc>
+
+  <defs>
+    <clipPath id="docking-clip"><rect x="40" y="78" width="780" height="465" rx="8"/></clipPath>
+    <clipPath id="node-editor-clip"><rect x="844" y="78" width="316" height="154" rx="8"/></clipPath>
+    <clipPath id="implot3d-clip"><rect x="844" y="304" width="316" height="205" rx="8"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="600" rx="12" fill="#101315"/>
+  <text x="40" y="43" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#36B5A6">DEAR-IMGUI-RS / REAL OUTPUTS</text>
+  <text x="1160" y="43" text-anchor="end" font-family="Cascadia Mono, Consolas, monospace" font-size="14" fill="#8F999E">DOCKING · NODE EDITOR · IMPLOT3D</text>
+
+  <image href="../artifacts/dear-imgui-docking.webp" x="40" y="78" width="780" height="465" preserveAspectRatio="xMidYMid meet" clip-path="url(#docking-clip)"/>
+  <rect x="40" y="78" width="780" height="465" rx="8" fill="none" stroke="#485156"/>
+  <text x="40" y="577" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#F4F1EA">GAME ENGINE / DOCKING EDITOR</text>
+  <text x="325" y="577" font-family="Cascadia Mono, Consolas, monospace" font-size="15" fill="#8F999E">GIZMOS · FILE BROWSER · MULTI-VIEWPORT</text>
+
+  <image href="../artifacts/dear-imgui-node-editor.webp" x="844" y="78" width="316" height="154" preserveAspectRatio="xMidYMid meet" clip-path="url(#node-editor-clip)"/>
+  <rect x="844" y="78" width="316" height="154" rx="8" fill="none" stroke="#485156"/>
+  <text x="844" y="264" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#F4F1EA">NODE EDITOR / BLUEPRINTS</text>
+
+  <image href="../artifacts/dear-imgui-implot3d.webp" x="844" y="304" width="316" height="205" preserveAspectRatio="xMidYMid meet" clip-path="url(#implot3d-clip)"/>
+  <rect x="844" y="304" width="316" height="205" rx="8" fill="none" stroke="#485156"/>
+  <text x="844" y="541" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#F4F1EA">IMPLOT3D / 3D PLOTTING</text>
+</svg>

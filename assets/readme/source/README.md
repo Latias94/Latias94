@@ -4,7 +4,9 @@ The rendered assets in the parent directory use real outputs from the projects f
 
 ## Source material
 
-- `dear-imgui-rs.webp`: `dear-imgui-rs/screenshots/game-engine-docking.png`
+- `dear-imgui-docking.webp`: cropped from `dear-imgui-rs/screenshots/game-engine-docking.png`
+- `dear-imgui-node-editor.webp`: `dear-imgui-rs/screenshots/node-editor-showcase.png`
+- `dear-imgui-implot3d.webp`: `dear-imgui-rs/screenshots/implot3d-basic.png`
 - `merman-*.webp`: `merman/docs/assets/showcase/`
 - `fret-*.webp`: `fret/screenshots/`
 

@@ -20,7 +20,7 @@
     <text x="54" y="374" font-size="16" fill="#8F999E">INSPECTABLE · TESTABLE · BUILT IN THE OPEN</text>
   </g>
 
-  <image xlink:href="../artifacts/dear-imgui-rs.webp" x="600" y="40" width="560" height="246" preserveAspectRatio="xMidYMid slice" clip-path="url(#imgui-clip)"/>
+  <image xlink:href="../artifacts/dear-imgui-docking.webp" x="600" y="40" width="560" height="246" preserveAspectRatio="xMidYMid slice" clip-path="url(#imgui-clip)"/>
   <rect x="600" y="40" width="560" height="246" rx="8" fill="none" stroke="#4A5357"/>
   <rect x="616" y="56" width="156" height="30" rx="4" fill="#101315" fill-opacity="0.9"/>
   <text x="630" y="77" font-family="Cascadia Mono, Consolas, monospace" font-size="15" font-weight="600" fill="#F4F1EA">DEAR-IMGUI-RS</text>

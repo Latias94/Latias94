@@ -25,13 +25,13 @@ I prefer tools that expose their state, keep boundaries explicit, and remain use
 
 [Playground](https://frankorz.com/merman/) · [Repository](https://github.com/Latias94/merman) · [Crates.io](https://crates.io/crates/merman) · [Documentation](https://docs.rs/merman)
 
-## Selected systems
+## Featured projects
 
 ### [dear-imgui-rs](https://github.com/Latias94/dear-imgui-rs)
 
 <p align="center">
   <a href="https://github.com/Latias94/dear-imgui-rs">
-    <img src="./assets/readme/artifacts/dear-imgui-rs.webp" width="100%" alt="Dear ImGui docking and editor tooling running through dear-imgui-rs">
+    <img src="./assets/readme/dear-imgui-showcase.webp" width="100%" alt="A Dear ImGui game-engine docking editor with smaller node-editor and ImPlot3D examples, running through dear-imgui-rs">
   </a>
 </p>
 
@@ -55,7 +55,7 @@ A local Codex CLI helper and proxy for provider routing, usage visibility, fallb
 
 **[Fret](https://github.com/Latias94/fret)** is an experimental, GPU-first Rust application UI framework for desktop applications, editor-grade interfaces, and WebGPU/wasm demos. It is the long-term exploration where rendering, layout, interaction, accessibility, and application structure meet.
 
-## More systems
+## More projects
 
 ### Application infrastructure
 

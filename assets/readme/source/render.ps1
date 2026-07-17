@@ -82,6 +82,7 @@ try {
     New-Item -ItemType Directory -Force -Path $renderTempRoot | Out-Null
 
     Render-Composition -SourceFile 'hero.svg' -OutputFile '..\hero.webp' -Width 1200 -Height 520
+    Render-Composition -SourceFile 'dear-imgui-showcase.svg' -OutputFile '..\dear-imgui-showcase.webp' -Width 1200 -Height 600
     Render-Composition -SourceFile 'merman-showcase.svg' -OutputFile '..\merman-showcase.webp' -Width 1200 -Height 560
     Render-Composition -SourceFile 'fret-showcase.svg' -OutputFile '..\fret-showcase.webp' -Width 1200 -Height 620
 }
