@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">Frankorz / Latias94</title>
-  <desc id="desc">A game developer building inspectable Rust systems for native UI, graphics, game content, and agent workflows, shown alongside real project interfaces.</desc>
+  <title id="title">Mingzhen Zhuang / Frankorz / Latias94</title>
+  <desc id="desc">Mingzhen Zhuang, a game developer building inspectable Rust systems for native UI, graphics, game content, and agent workflows, shown alongside real project interfaces.</desc>
 
   <defs>
     <clipPath id="imgui-clip"><rect x="600" y="40" width="560" height="246" rx="8"/></clipPath>
@@ -13,11 +13,12 @@
 
   <g font-family="Cascadia Mono, Consolas, monospace">
     <text x="54" y="48" font-size="16" font-weight="600" fill="#36B5A6">GAME DEVELOPER / SHENZHEN, CHINA</text>
-    <text x="54" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="88" font-weight="800" fill="#F4F1EA">FRANKORZ</text>
-    <text x="58" y="228" font-size="22" font-weight="600" fill="#E06C36">LATIAS94</text>
-    <text x="54" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#D9DEDF">Rust systems for native UI, graphics,</text>
-    <text x="54" y="326" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#D9DEDF">game content, and agent workflows.</text>
-    <text x="54" y="374" font-size="16" fill="#8F999E">INSPECTABLE · TESTABLE · BUILT IN THE OPEN</text>
+    <text x="54" y="145" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#F4F1EA">MINGZHEN</text>
+    <text x="54" y="214" font-family="Segoe UI, Arial, sans-serif" font-size="72" font-weight="800" fill="#F4F1EA">ZHUANG</text>
+    <text x="58" y="253" font-size="17" font-weight="600" fill="#E06C36">FRANKORZ.COM · GITHUB @LATIAS94</text>
+    <text x="54" y="307" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#D9DEDF">Rust systems for native UI, graphics,</text>
+    <text x="54" y="341" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600" fill="#D9DEDF">game content, and agent workflows.</text>
+    <text x="54" y="387" font-size="16" fill="#8F999E">INSPECTABLE · TESTABLE · BUILT IN THE OPEN</text>
   </g>
 
   <image xlink:href="../artifacts/dear-imgui-docking.webp" x="600" y="40" width="560" height="246" preserveAspectRatio="xMidYMid slice" clip-path="url(#imgui-clip)"/>

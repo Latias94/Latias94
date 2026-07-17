@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/readme/hero.webp" width="100%" alt="Frankorz / Latias94, a game developer building Rust systems for native UI, graphics, game content, and agent workflows">
+  <img src="./assets/readme/hero.webp" width="100%" alt="Mingzhen Zhuang, a game developer building Rust systems for native UI, graphics, game content, and agent workflows">
 </p>
 
 <p align="center">
@@ -9,7 +9,7 @@
   Shenzhen, China
 </p>
 
-I am a game developer with 7+ years of professional experience. Most of my open-source work is written in Rust and sits at the intersection of native UI, graphics and game infrastructure, and AI-assisted engineering.
+I am Mingzhen Zhuang, a game developer with 7+ years of professional experience. Most of my open-source work is written in Rust and sits at the intersection of native UI, graphics and game infrastructure, and AI-assisted engineering.
 
 I prefer tools that expose their state, keep boundaries explicit, and remain useful before they become polished products.
 

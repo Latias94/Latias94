@@ -27,5 +27,5 @@ The script renders the SVG compositions in Chromium so local WebP references beh
 Create a self-contained local preview from the repository root:
 
 ```powershell
-pandoc --standalone --embed-resources --metadata 'pagetitle=Frankorz / Latias94' --css assets/readme/source/preview.css README.md -o $env:TEMP/latias94-readme-preview.html
+pandoc --standalone --embed-resources --metadata 'pagetitle=Mingzhen Zhuang / Frankorz' --css assets/readme/source/preview.css README.md -o $env:TEMP/latias94-readme-preview.html
 ```
