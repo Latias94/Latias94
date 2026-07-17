@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">Frankorz / Latias94</title>
+  <desc id="desc">A game developer building inspectable Rust systems for native UI, graphics, game content, and agent workflows, shown alongside real project interfaces.</desc>
+
+  <defs>
+    <clipPath id="imgui-clip"><rect x="600" y="40" width="560" height="246" rx="8"/></clipPath>
+    <clipPath id="merman-clip"><rect x="600" y="306" width="270" height="104" rx="8"/></clipPath>
+    <clipPath id="fret-clip"><rect x="890" y="306" width="270" height="104" rx="8"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="520" rx="12" fill="#101315"/>
+  <path d="M560 32V410" stroke="#30363A" stroke-width="1"/>
+
+  <g font-family="Cascadia Mono, Consolas, monospace">
+    <text x="54" y="48" font-size="16" font-weight="600" fill="#36B5A6">GAME DEVELOPER / SHENZHEN, CHINA</text>
+    <text x="54" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="88" font-weight="800" fill="#F4F1EA">FRANKORZ</text>
+    <text x="58" y="228" font-size="22" font-weight="600" fill="#E06C36">LATIAS94</text>
+    <text x="54" y="292" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#D9DEDF">Rust systems for native UI, graphics,</text>
+    <text x="54" y="326" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="600" fill="#D9DEDF">game content, and agent workflows.</text>
+    <text x="54" y="374" font-size="16" fill="#8F999E">INSPECTABLE · TESTABLE · BUILT IN THE OPEN</text>
+  </g>
+
+  <image xlink:href="../artifacts/dear-imgui-rs.webp" x="600" y="40" width="560" height="246" preserveAspectRatio="xMidYMid slice" clip-path="url(#imgui-clip)"/>
+  <rect x="600" y="40" width="560" height="246" rx="8" fill="none" stroke="#4A5357"/>
+  <rect x="616" y="56" width="156" height="30" rx="4" fill="#101315" fill-opacity="0.9"/>
+  <text x="630" y="77" font-family="Cascadia Mono, Consolas, monospace" font-size="15" font-weight="600" fill="#F4F1EA">DEAR-IMGUI-RS</text>
+
+  <image xlink:href="../artifacts/merman-sankey.webp" x="600" y="306" width="270" height="104" preserveAspectRatio="xMidYMid slice" clip-path="url(#merman-clip)"/>
+  <rect x="600" y="306" width="270" height="104" rx="8" fill="none" stroke="#4A5357"/>
+  <rect x="612" y="318" width="92" height="28" rx="4" fill="#101315" fill-opacity="0.9"/>
+  <text x="625" y="338" font-family="Cascadia Mono, Consolas, monospace" font-size="15" font-weight="600" fill="#F4F1EA">MERMAN</text>
+
+  <image xlink:href="../artifacts/fret-table.webp" x="890" y="306" width="270" height="104" preserveAspectRatio="xMidYMid slice" clip-path="url(#fret-clip)"/>
+  <rect x="890" y="306" width="270" height="104" rx="8" fill="none" stroke="#4A5357"/>
+  <rect x="902" y="318" width="74" height="28" rx="4" fill="#101315" fill-opacity="0.9"/>
+  <text x="915" y="338" font-family="Cascadia Mono, Consolas, monospace" font-size="15" font-weight="600" fill="#F4F1EA">FRET</text>
+
+  <rect x="0" y="430" width="1200" height="90" fill="#171B1E"/>
+  <path d="M0 430H1200" stroke="#30363A"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="54" y="472" font-size="32" font-weight="800" fill="#F4F1EA">7+</text>
+    <text x="110" y="470" font-family="Cascadia Mono, Consolas, monospace" font-size="15" fill="#8F999E">YEARS IN GAME DEVELOPMENT</text>
+    <text x="500" y="472" font-size="32" font-weight="800" fill="#F4F1EA">900+</text>
+    <text x="594" y="470" font-family="Cascadia Mono, Consolas, monospace" font-size="15" fill="#8F999E">GITHUB STARS</text>
+    <text x="850" y="472" font-size="32" font-weight="800" fill="#F4F1EA">130K+</text>
+    <text x="966" y="470" font-family="Cascadia Mono, Consolas, monospace" font-size="15" fill="#8F999E">CRATES.IO DOWNLOADS</text>
+  </g>
+</svg>

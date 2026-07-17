@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Merman rendered outputs</title>
+  <desc id="desc">Architecture, mindmap, and Sankey diagrams rendered by the merman Rust implementation of Mermaid.</desc>
+
+  <defs>
+    <clipPath id="architecture-clip"><rect x="42" y="122" width="520" height="148" rx="7"/></clipPath>
+    <clipPath id="mindmap-clip"><rect x="126" y="304" width="300" height="224" rx="7"/></clipPath>
+    <clipPath id="sankey-clip"><rect x="604" y="122" width="554" height="258" rx="7"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="560" rx="12" fill="#F2F0EA"/>
+  <text x="42" y="42" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#157F78">MERMAN / REAL OUTPUTS</text>
+  <text x="42" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="750" fill="#172126">Mermaid-compatible rendering without a browser runtime</text>
+
+  <text x="42" y="112" font-family="Cascadia Mono, Consolas, monospace" font-size="14" fill="#657176">ARCHITECTURE</text>
+  <image href="../artifacts/merman-architecture.webp" x="42" y="122" width="520" height="148" preserveAspectRatio="xMidYMid meet" clip-path="url(#architecture-clip)"/>
+  <rect x="42" y="122" width="520" height="148" rx="7" fill="none" stroke="#CCD1CF"/>
+
+  <text x="126" y="294" font-family="Cascadia Mono, Consolas, monospace" font-size="14" fill="#657176">MINDMAP</text>
+  <image href="../artifacts/merman-mindmap.webp" x="126" y="304" width="300" height="224" preserveAspectRatio="xMidYMid meet" clip-path="url(#mindmap-clip)"/>
+  <rect x="126" y="304" width="300" height="224" rx="7" fill="#FFFFFF" fill-opacity="0" stroke="#CCD1CF"/>
+
+  <text x="604" y="112" font-family="Cascadia Mono, Consolas, monospace" font-size="14" fill="#657176">SANKEY</text>
+  <image href="../artifacts/merman-sankey.webp" x="604" y="122" width="554" height="258" preserveAspectRatio="xMidYMid meet" clip-path="url(#sankey-clip)"/>
+  <rect x="604" y="122" width="554" height="258" rx="7" fill="none" stroke="#CCD1CF"/>
+
+  <path d="M604 414H1158" stroke="#CCD1CF"/>
+  <text x="604" y="451" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#172126">PARSE · LAYOUT · SVG · ASCII · RASTER</text>
+  <text x="604" y="488" font-family="Segoe UI, Arial, sans-serif" font-size="19" fill="#4D5A5F">CLI, Rust APIs, LSP, WebAssembly, and Flutter entry points.</text>
+  <circle cx="1139" cy="507" r="8" fill="#E06C36"/>
+</svg>

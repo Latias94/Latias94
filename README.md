@@ -1,42 +1,89 @@
-# Frankorz / Latias94
+<p align="center">
+  <img src="./assets/readme/hero.webp" width="100%" alt="Frankorz / Latias94, a game developer building Rust systems for native UI, graphics, game content, and agent workflows">
+</p>
 
-I'm a game developer based in Shenzhen, China. I have 7+ years of professional game development experience, and most of my personal/open-source work is now written in Rust.
+<p align="center">
+  <a href="https://frankorz.com/">Website</a> ·
+  <a href="https://notes.frankorz.com/">Notes</a> ·
+  <a href="https://github.com/Latias94?tab=repositories">Repositories</a> ·
+  Shenzhen, China
+</p>
 
-My work usually sits near native tools, editor UI, graphics/runtime infrastructure, and AI-assisted development. I like projects that are inspectable, testable, and useful while they are still experiments.
+I am a game developer with 7+ years of professional experience. Most of my open-source work is written in Rust and sits at the intersection of native UI, graphics and game infrastructure, and AI-assisted engineering.
 
-Currently focused on: `Rust UI` · `Dear ImGui` · `AI-assisted development` · `graphics tooling` · `game tooling`.
+I prefer tools that expose their state, keep boundaries explicit, and remain useful before they become polished products.
 
-Many of my repositories are learning logs or scratchpads. If you want to understand what I am building now, start here.
+## Start with merman
 
-## Current focus
+<p align="center">
+  <a href="https://frankorz.com/merman/">
+    <img src="./assets/readme/merman-showcase.webp" width="100%" alt="Architecture, mindmap, and Sankey diagrams rendered by merman">
+  </a>
+</p>
 
-- [fret](https://github.com/Latias94/fret): a GPU-first Rust application UI framework for desktop-first apps, editor-grade UI, and WebGPU/wasm demos. Experimental and under heavy development.
-- [dear-imgui-rs](https://github.com/Latias94/dear-imgui-rs): a Rust bindings ecosystem for Dear ImGui, including docking, WGPU/GL/Vulkan backends, and extensions such as ImPlot, ImGuizmo, ImNodes, node editor, file browser, and reflection-based UI.
-- [codex-helper](https://github.com/Latias94/codex-helper): a local Codex CLI helper/proxy for provider routing, usage visibility, fallback strategies, request logs, and session tooling.
-- [dev-skills](https://github.com/Latias94/dev-skills): reusable Codex skills for large Rust projects, built around requirements clarification, ADR/workstream-backed execution, task ledgers, evidence, gates, and handoff continuity.
-- [merman](https://github.com/Latias94/merman): Mermaid, but headless, in Rust. The goal is deterministic parsing, layout, rendering, and parity checks without depending on a browser runtime.
+**[merman](https://github.com/Latias94/merman)** is a parity-focused, browser-independent implementation of Mermaid in Rust. It covers parsing, layout, SVG and raster rendering, terminal output, diagnostics, editor tooling, and web integrations.
 
-## Selected projects
+[Playground](https://frankorz.com/merman/) · [Repository](https://github.com/Latias94/merman) · [Crates.io](https://crates.io/crates/merman) · [Documentation](https://docs.rs/merman)
 
-- [asset-importer](https://github.com/Latias94/asset-importer): safe, high-level Rust bindings for Assimp, focused on practical 3D asset import/export workflows.
-- [unity-asset](https://github.com/Latias94/unity-asset): a Rust implementation for parsing Unity YAML and binary asset formats, focused on extraction, inspection, and learning Unity's file formats from the inside.
-- [boxdd](https://github.com/Latias94/boxdd): safe, ergonomic Rust bindings for Box2D v3, with a focus on explicit FFI boundaries, practical hot-path APIs, and game/runtime use cases.
-- [spine2d](https://github.com/Latias94/spine2d): an experimental pure Rust runtime for Spine 4.3, aiming for renderer-agnostic native/wasm usage and oracle-driven parity with official runtime behavior.
-- [renderdog](https://github.com/Latias94/renderdog): Rust wrapper and automation helpers around RenderDoc, including workflows useful to AI-assisted graphics debugging.
-- [jsonrepair](https://github.com/Latias94/jsonrepair): a fast, low-dependency JSON repair library and CLI for malformed JSON commonly produced by LLMs and other sources.
-- [siumai](https://github.com/YumchaLabs/siumai): a type-safe Rust library providing one consistent API across multiple LLM providers.
+## Selected systems
 
-## Working style
+### [dear-imgui-rs](https://github.com/Latias94/dear-imgui-rs)
 
-- I use AI heavily as a development partner, especially for exploration, tests, documentation, and repetitive implementation work.
-- I still care about human judgment: architecture, priorities, tradeoffs, maintainability, and taste.
-- I prefer small, inspectable building blocks over polished demos that are hard to maintain.
-- My game-development background still shows up in the projects I choose: UI, editor tooling, rendering, assets, debugging, and runtime infrastructure.
+<p align="center">
+  <a href="https://github.com/Latias94/dear-imgui-rs">
+    <img src="./assets/readme/artifacts/dear-imgui-rs.webp" width="100%" alt="Dear ImGui docking and editor tooling running through dear-imgui-rs">
+  </a>
+</p>
 
-## Background
+A Rust bindings ecosystem for Dear ImGui with docking, WGPU, OpenGL, and Vulkan backends, plus editor-oriented extensions including ImPlot, ImGuizmo, ImNodes, node editors, file browsers, and reflection-based UI.
 
-- Game development: Unity, gameplay systems, editor tooling, graphics fundamentals.
-- Rust: UI frameworks, FFI/bindings, CLI/TUI tools, MCP servers, graphics/debug tooling.
-- AI-assisted open source: building local tools and workflows that make agents more useful on real codebases.
+[Repository](https://github.com/Latias94/dear-imgui-rs) · [Crates.io](https://crates.io/crates/dear-imgui-rs) · [Documentation](https://docs.rs/dear-imgui-rs)
 
-Older writing and notes: [frankorz.com](https://frankorz.com/) · [public notes](https://notes.frankorz.com/)
+### [codex-helper](https://github.com/Latias94/codex-helper)
+
+A local Codex CLI helper and proxy for provider routing, usage visibility, fallbacks, request inspection, and session recovery. Its terminal interface keeps routing decisions and token usage observable instead of hiding them behind configuration.
+
+[Repository](https://github.com/Latias94/codex-helper) · [Install and usage](https://github.com/Latias94/codex-helper#readme)
+
+## Currently building
+
+<p align="center">
+  <a href="https://github.com/Latias94/fret">
+    <img src="./assets/readme/fret-showcase.webp" width="100%" alt="Fret todo application and UI gallery running as native Rust interfaces">
+  </a>
+</p>
+
+**[Fret](https://github.com/Latias94/fret)** is an experimental, GPU-first Rust application UI framework for desktop applications, editor-grade interfaces, and WebGPU/wasm demos. It is the long-term exploration where rendering, layout, interaction, accessibility, and application structure meet.
+
+## More systems
+
+### Application infrastructure
+
+- **[mdstream](https://github.com/Latias94/mdstream)** — streaming-first Markdown middleware for incremental LLM output in Rust UIs.
+- **[open-gpui](https://github.com/Latias94/open-gpui)** — an independent fork continuing GPUI's evolution as a standalone Rust UI framework and ecosystem. That direction is already visible in a first-party component library, retained docking with multi-viewport windows, form and async resource state, deterministic motion, devtools, and canvas primitives.
+
+### Game and graphics
+
+- **[boxdd](https://github.com/Latias94/boxdd)** — safe Box2D v3 bindings with Bevy integration and browser examples.
+- **[boxddd](https://github.com/Latias94/boxddd)** — experimental, engine-agnostic Rust bindings for Box3D and the 3D sibling of `boxdd`.
+- **[asset-importer](https://github.com/Latias94/asset-importer)** — high-level Assimp bindings for practical 3D asset import and export.
+- **[unity-asset](https://github.com/Latias94/unity-asset)** — parsers and extraction tools for Unity YAML and binary asset formats.
+- **[spine2d](https://github.com/Latias94/spine2d)** — an experimental pure-Rust Spine 4.3 runtime for native, web, and Bevy.
+- **[renderdog](https://github.com/Latias94/renderdog)** — RenderDoc capture, automation, and MCP tooling for graphics debugging.
+
+### Agent and developer tools
+
+- **[dev-skills](https://github.com/Latias94/dev-skills)** — reusable Codex skills and engineering workflows for large codebases.
+- **[jsonrepair](https://github.com/Latias94/jsonrepair)** — a low-dependency Rust library and CLI for repairing malformed JSON.
+- **[siumai](https://github.com/YumchaLabs/siumai)** — a type-safe, unified Rust API for multiple LLM providers.
+
+## How I work
+
+AI is part of my development workflow for exploration, tests, documentation, and repetitive implementation. Architecture, priorities, tradeoffs, maintainability, and product taste still require human judgment.
+
+My game-development background shapes the problems I choose: editor workflows, rendering, runtime behavior, content pipelines, debugging, and the tools that connect them.
+
+<p align="center">
+  <a href="https://frankorz.com/">frankorz.com</a> ·
+  <a href="https://notes.frankorz.com/">public notes</a>
+</p>

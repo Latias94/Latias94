@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" role="img" aria-labelledby="title desc">
+  <title id="title">Fret application UI showcase</title>
+  <desc id="desc">A native todo application and a component gallery built with the experimental Fret Rust UI framework.</desc>
+
+  <defs>
+    <clipPath id="todo-clip"><rect x="54" y="116" width="300" height="454" rx="8"/></clipPath>
+    <clipPath id="gallery-clip"><rect x="390" y="116" width="756" height="454" rx="8"/></clipPath>
+  </defs>
+
+  <rect width="1200" height="620" rx="12" fill="#111416"/>
+  <text x="54" y="42" font-family="Cascadia Mono, Consolas, monospace" font-size="16" font-weight="600" fill="#36B5A6">FRET / CURRENT DIRECTION</text>
+  <text x="54" y="84" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="750" fill="#F4F1EA">GPU-first application UI in Rust</text>
+
+  <image href="../artifacts/fret-todo.webp" x="54" y="116" width="300" height="454" preserveAspectRatio="xMidYMid meet" clip-path="url(#todo-clip)"/>
+  <rect x="54" y="116" width="300" height="454" rx="8" fill="none" stroke="#485156"/>
+  <rect x="70" y="132" width="104" height="29" rx="4" fill="#111416" fill-opacity="0.9"/>
+  <text x="83" y="153" font-family="Cascadia Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1EA">TODO APP</text>
+
+  <image href="../artifacts/fret-table.webp" x="390" y="116" width="756" height="454" preserveAspectRatio="xMidYMid slice" clip-path="url(#gallery-clip)"/>
+  <rect x="390" y="116" width="756" height="454" rx="8" fill="none" stroke="#485156"/>
+  <rect x="406" y="132" width="118" height="29" rx="4" fill="#111416" fill-opacity="0.9"/>
+  <text x="419" y="153" font-family="Cascadia Mono, Consolas, monospace" font-size="14" font-weight="600" fill="#F4F1EA">UI GALLERY</text>
+</svg>
